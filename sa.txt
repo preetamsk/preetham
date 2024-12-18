@@ -3,9 +3,11 @@
 int main()
 {
 int a=10, b=20, c;
-printf("A=%d B=%d", a,b);
-c=a+b;
-printf("RESULT=%d", c);
+printf("Before swapping  A=%d B=%d", a,b);
+c=a;
+a=b;
+b=c;
+printf("After swapping A=%d B=%d",a,b);
 }
 
 
@@ -14,9 +16,11 @@ printf("RESULT=%d", c);
 #include<stdio.h>
 int main()
 {
+int a=10,b=20;
+printf("Before swapping A=%d B=%d", a,b);
+a=a+b;
+b=a-b;
+a=a-b;
 int a,b,c;
-printf("Enter the value of A and B\n");
-scanf("%d%d", &a,b);
-c=a+b;
-printf("RESULT=%d", c);
+printf("After swapping A=%d B=%d",a,b");
 }
