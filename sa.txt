@@ -1,3 +1,4 @@
+//SWAPPING of 2 number using 3rd variable
 #include<stdio.h>
 int main()
 {
@@ -6,7 +7,9 @@ printf("A=%d B=%d", a,b);
 c=a+b;
 printf("RESULT=%d", c);
 }
-//same program using scanf
+
+
+//SWAPPING of 2 number without using third variable 
 
 #include<stdio.h>
 int main()
